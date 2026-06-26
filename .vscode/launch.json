@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: infer.py",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "/opt/anaconda3/bin/python",
+            "program": "${workspaceFolder}/infer.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--image_dir",
+                "${workspaceFolder}/sample_images"
+            ],
+            "justMyCode": true
+        }
+    ]
+}

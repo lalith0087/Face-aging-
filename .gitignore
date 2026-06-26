@@ -1,0 +1,9 @@
+.idea
+__pycache__
+__MACOSX
+lightning_logs
+checkpoints
+/test_images
+/.venv
+/mygraph.png
+.DS_Store
